@@ -14,7 +14,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Concurso / Call\tTipologia / Type of Grant\tDomínio / Scientific Domain\tÁrea / Scientific area\tSub-área / Sub-area\t  Column1  \tReferência / Reference\tTítulo / Title\t  IR / Principal Investigator  \t  IP / Proponent Institution  \tFin Solicitado / Requested\tFin Concedido / Awarded\tFin Concedido FEDER / FEDER funding\t",
+            "name": "Concurso / Call,Tipologia / Type of Grant,Domínio / Scientific Domain,Área / Scientific area,Sub-área / Sub-area,  Column1  ,Referência / Reference,Título / Title,  IR / Principal Investigator  ,  IP / Proponent Institution  ,Fin Solicitado / Requested,Fin Concedido / Awarded,Fin Concedido FEDER / FEDER funding,",
             "type": "string",
             "description": ""
           }
