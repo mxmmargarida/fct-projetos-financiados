@@ -1,0 +1,26 @@
+{
+  "name": "Projectos financiados",
+  "title": "",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "2012",
+      "path": "data/2012.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 592,
+      "schema": {
+        "fields": [
+          {
+            "name": "Concurso / Call\tTipologia / Type of Grant\tDomínio / Scientific Domain\tÁrea / Scientific area\tSub-área / Sub-area\t  Column1  \tReferência / Reference\tTítulo / Title\t  IR / Principal Investigator  \t  IP / Proponent Institution  \tFin Solicitado / Requested\tFin Concedido / Awarded\tFin Concedido FEDER / FEDER funding\t",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": "Concurso de Projetos de Investigação Científica e Desenvolvimento"
+}
