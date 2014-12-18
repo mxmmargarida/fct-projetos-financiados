@@ -1,26 +1,82 @@
 {
-  "name": "Projectos financiados",
-  "title": "",
+  "name": "fct-projetos-financiados",
+  "title": "Projetos financiados pela FCT",
   "homepage": "",
   "version": "0.1.0",
   "license": "PDDL-1.0",
+  "description": "Concurso de Projetos de Investigação Científica e Desenvolvimento",
+  "repository": "https://github.com/rlafuente/fct-projetos-financiados",
   "resources": [
     {
-      "name": "2012",
-      "path": "data/2012.csv",
+      "name": "fct-projetos-financiados",
+      "path": "data/fct-projetos-financiados.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 592,
+      "bytes": 257195,
       "schema": {
         "fields": [
           {
-            "name": "Concurso / Call\tTipologia / Type of Grant\tDomínio / Scientific Domain\tÁrea / Scientific area\tSub-área / Sub-area\t  Column1  \tReferência / Reference\tTítulo / Title\t  IR / Principal Investigator  \t  IP / Proponent Institution  \tFin Solicitado / Requested\tFin Concedido / Awarded\tFin Concedido FEDER / FEDER funding\t",
+            "name": "call",
             "type": "string",
+            "description": ""
+          },
+          {
+            "name": "grant_type",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "domain",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "sub_area",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "reference",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "main_researcher",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "institution",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "requested_funds",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "awarded_funds",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "feder_funding",
+            "type": "number",
             "description": ""
           }
         ]
       }
     }
-  ],
-  "description": "Concurso de Projetos de Investigação Científica e Desenvolvimento"
+  ]
 }
